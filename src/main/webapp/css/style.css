@@ -1,0 +1,19 @@
+.custom-bg{
+    background: #3f51b5!important;
+}
+
+.admintemp .card{
+    border:1px solid #5e35b1;
+}
+.admintemp .card:hover{
+    background-color: #e2e2e2;
+    cursor: pointer;
+}
+
+
+#item{
+    background-color: #3f51b5!important;
+}
+.course-card:hover{
+    cursor: pointer;
+}

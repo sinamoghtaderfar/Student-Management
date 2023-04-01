@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+        <servlet>
+            <servlet-name>RegisterServlet</servlet-name>
+            <servlet-name>com.servlets.RegisterServlet</servlet-name>
+        </servlet>
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-name>com.servlets.LoginServlet</servlet-name>
+    </servlet>
+    <servlet>
+        <servlet-name>CourseOperationServlet</servlet-name>
+        <servlet-name>com.servlets.CourseOperationServlet</servlet-name>
+    </servlet>
+    <servlet>
+        <servlet-name>UserOperationServlet</servlet-name>
+        <servlet-name>com.servlets.UserOperationServlet</servlet-name>
+    </servlet>
+    <servlet>
+        <servlet-name>CategoryOperationServlet</servlet-name>
+        <servlet-name>com.servlets.CategoryOperationServlet</servlet-name>
+    </servlet>
+    <servlet>
+        <servlet-name>SelectCourseServlet</servlet-name>
+        <servlet-name>com.servlets.SelectCourseServlet</servlet-name>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CategoryOperationServlet</servlet-name>
+        <url-pattern>/CategoryOperationServlet</url-pattern>
+    </servlet-mapping>
+        <servlet-mapping>
+            <servlet-name>RegisterServlet</servlet-name>
+            <url-pattern>/RegisterServlet</url-pattern>
+        </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CourseOperationServlet</servlet-name>
+        <url-pattern>/CourseOperationServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UserOperationServlet</servlet-name>
+        <url-pattern>/UserOperationServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SelectCourseServlet</servlet-name>
+        <url-pattern>/SelectCourseServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
+
